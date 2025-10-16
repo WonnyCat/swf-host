@@ -3,18 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Ruffle Test</title>
-  <script>
-    window.RufflePlayer = window.RufflePlayer || {};
-    window.addEventListener("DOMContentLoaded", () => {
-      const ruffle = window.RufflePlayer.newest();
-      const player = ruffle.createPlayer();
-      document.body.appendChild(player);
-      player.load("firstflashanimation.swf");
-    });
-  </script>
-  <script src="ruffle.js"></script>
 </head>
-<body>
+<body>  
   <h2>Flash animation running with Ruffle</h2>
+  <embed src="https://files.catbox.moe/j8nzg7.swf" width="468" height="60">
 </body>
 </html>
